@@ -1,5 +1,5 @@
 module "vpc" {
-  source  = "../../modules/vpc"
+  source  = "terraform-aws-modules/vpc/aws"
   #version = "1.34.0"
 
   name = "eks-cluster"
