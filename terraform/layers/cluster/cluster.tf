@@ -1,6 +1,6 @@
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "1.34.0"
+  #version = "1.34.0"
 
   name = "eks-cluster"
   cidr = "10.0.0.0/20"

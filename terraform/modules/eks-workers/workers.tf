@@ -52,7 +52,7 @@ resource "aws_launch_configuration" "eks_workers" {
 data "template_file" "user_data" {
   template = "${file("${path.module}/user-data.tpl")}"
 
-  vars {
+  vars = {
     # Hardcoded region
     aws_region   = "us-east-1"
     cluster_name = "${var.cluster_name}"

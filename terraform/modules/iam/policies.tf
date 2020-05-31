@@ -1,5 +1,5 @@
 data "aws_iam_policy_document" "assume_role_policy_eks" {
-  statement = {
+  statement  {
     actions = [
       "sts:AssumeRole",
     ]
@@ -15,7 +15,7 @@ data "aws_iam_policy_document" "assume_role_policy_eks" {
 }
 
 data "aws_iam_policy_document" "assume_role_policy_ec2" {
-  statement = {
+  statement  {
     actions = [
       "sts:AssumeRole",
     ]
