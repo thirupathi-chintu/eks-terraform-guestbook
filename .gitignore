@@ -1,0 +1,17 @@
+# MacOS
+.DS_Store
+
+#PyCharm
+.idea/
+
+# K8s binary
+kubectl
+
+# Heptio binary
+heptio-authenticator-aws
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.tfstate.lock.info
